@@ -9,10 +9,10 @@ Practiced lists, tuples, dictionaries, sets, functions, lambda expressions, recu
 # Week 3 — NumPy and Pandas
 Created and manipulated NumPy arrays, used vectorized operations and broadcasting, loaded a CSV into a Pandas DataFrame, selected and filtered data, handled missing values, removed duplicate rows, and grouped records to calculate city-level statistics.
 
-#Week 4 — Visualization
+# Week 4 — Visualization
 Used Matplotlib and Seaborn to create a histogram, scatter plot, box plot, and correlation heatmap. The visualizations explore temperature distribution, temperature-humidity relationships, city-wise temperature variation, and relationships among numeric weather features.
 
-**Key deliverables
+# Key deliverables
  Week-wise Python scripts.
  Week-wise concept summaries.
  Demonstration weather dataset.
