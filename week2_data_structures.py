@@ -1,5 +1,3 @@
-"""Week 2: Python data structures, functions, transformations, and data cleaning."""
-
 def sum_of_squares(numbers):
     return sum(number ** 2 for number in numbers)
 
@@ -7,7 +5,6 @@ def filter_above_threshold(numbers, threshold):
     return [number for number in numbers if number > threshold]
 
 def remove_duplicate_records(records):
-    """Remove duplicate dictionaries while preserving the original order."""
     unique = []
     seen = set()
     for record in records:
@@ -18,7 +15,6 @@ def remove_duplicate_records(records):
     return unique
 
 def clean_temperature_records(records, minimum=-10, maximum=55):
-    """Drop missing/non-numeric/out-of-range temperatures and duplicate rows."""
     cleaned = []
     seen = set()
     for row in records:
@@ -37,21 +33,15 @@ def clean_temperature_records(records, minimum=-10, maximum=55):
     return cleaned
 
 def recursive_sum(numbers):
-    """Return the sum of a list using recursion."""
     if not numbers:
         return 0
     return numbers[0] + recursive_sum(numbers[1:])
 
 def main():
-    # List and tuple
     temperatures = [29, 30, 28, 31, 27]
     fixed_coordinates = (13.08, 80.27)
-
-    # Dictionary and set
     city_reading = {"city": "Chennai", "temperature_c": 29}
     unique_cities = {"Chennai", "Bengaluru", "Mumbai", "Chennai"}
-
-    # List comprehension and lambda
     fahrenheit = [round((t * 9 / 5) + 32, 1) for t in temperatures]
     sorted_temperatures = sorted(temperatures, key=lambda value: value)
 
