@@ -14,8 +14,3 @@ The dashboard script cleans the demonstration weather data and generates four co
 2. Temperature-versus-humidity scatter plot, separated by city.
 3. City-wise temperature box plot.
 4. Correlation heatmap for numeric weather features.
-
-## How to run
-`python Week4_Visualization/week4_visualization_dashboard.py`
-
-The script saves PNG charts in the `outputs/` folder. These charts are a compact static dashboard deliverable; they are not an interactive web dashboard.
