@@ -15,5 +15,3 @@ The script converts Celsius to Fahrenheit and provides a basic four-operation ca
 ## Client-style mini project
 The average-temperature processor accepts a comma-separated list of readings, validates the input, and calculates the arithmetic mean.
 
-## How to run
-`python Week1_Python_Basics/week1_python_basics.py`
