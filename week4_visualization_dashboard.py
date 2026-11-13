@@ -1,5 +1,3 @@
-"""Week 4: Matplotlib and Seaborn visualizations for the weather dataset."""
-
 from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,7 +9,6 @@ OUTPUT_DIR = ROOT / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 def main():
-    # Seaborn is used for styling; Matplotlib creates the charts for broad compatibility.
     sns.set_theme()
     df = pd.read_csv(DATA_PATH, parse_dates=["date"]).drop_duplicates()
     numeric = ["temperature_c", "humidity", "wind_kmh", "rainfall_mm"]
