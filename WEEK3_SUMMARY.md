@@ -16,7 +16,3 @@ The script reads the supplied weather CSV, demonstrates NumPy operations, remove
 - `outputs/weather_cleaned.csv`
 - `outputs/city_weather_summary.csv`
 
-The dataset is synthetic demonstration data, not client-provided data.
-
-## How to run
-`python Week3_NumPy_Pandas/week3_numpy_pandas.py`
